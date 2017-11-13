@@ -1,0 +1,5 @@
+# Actually this file name is config.vm
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "minimum/centos-7-docker"
+end
